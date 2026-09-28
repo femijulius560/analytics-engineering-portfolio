@@ -1,0 +1,168 @@
+.profit-case {
+  --profit-ink: #062f31;
+  --profit-accent: #087f79;
+  --profit-mint: #dff5f1;
+}
+.profit-hero .eyebrow { color: var(--profit-accent); }
+.profit-lead { background: #edf7f5; }
+.profit-case .case-figure img { background: #f4fbfa; }
+.profit-wide-figure { margin-top: 72px; }
+.profit-dark {
+  background: var(--profit-ink);
+  color: #f7f7f1;
+}
+.profit-dark .eyebrow,
+.profit-dark .case-copy > p,
+.profit-dark figcaption { color: rgba(247,247,241,.68); }
+.profit-dark .case-figure img { border-color: rgba(255,255,255,.18); }
+.profit-decision-stack {
+  display: grid;
+  gap: 28px;
+  margin-top: 72px;
+}
+.project-feature-secondary {
+  margin-top: 28px;
+}
+.project-feature-secondary .project-feature-copy {
+  background: #073a3b;
+  color: #f7fbf8;
+}
+.project-feature-secondary .project-index,
+.project-feature-secondary .project-description,
+.project-feature-secondary .project-meta-row {
+  color: rgba(247,251,248,.7);
+}
+.project-feature-secondary .project-meta-row span {
+  border-color: rgba(247,251,248,.25);
+}
+.project-feature-secondary .project-link { color: #f7fbf8; }
+.profit-card-shot { background: #e8f5f3; }
+.single-preview { grid-template-columns: minmax(0,1fr); }
+@media (max-width: 800px) {
+  .profit-wide-figure,
+  .profit-decision-stack { margin-top: 48px; }
+}
+
+
+/* V5.1 — screenshots are product evidence, so preserve the complete interface. */
+.project-shot-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: clamp(12px, 1.8vw, 24px);
+}
+.project-shot {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center !important;
+}
+.project-feature .project-shot-wrap { min-height: 0; }
+
+.case-figure { overflow: visible; }
+.case-figure img,
+.profit-pair .case-figure img {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center top !important;
+}
+.profit-pair { align-items: start; }
+@media (max-width: 980px) {
+  .case-pair.profit-pair { grid-template-columns: 1fr; }
+}
+
+
+/* V5.2 — homepage Profit Optimiser image:
+   same full-screenshot treatment as Sponge Metrics. */
+.project-feature-secondary .project-shot-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  min-height: 0;
+  padding: clamp(12px, 1.8vw, 24px);
+}
+
+.project-feature-secondary .project-shot,
+.profit-card-shot .project-shot {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center !important;
+}
+
+
+/* V5.3 — homepage project composition
+   Let the project row follow its content instead of stretching the screenshot panel. */
+.selected-work .project-feature {
+  align-items: start;
+}
+
+.selected-work .project-feature-copy {
+  align-self: stretch;
+  min-height: 0;
+}
+
+.selected-work .project-shot-wrap,
+.selected-work .project-feature-secondary .project-shot-wrap {
+  align-self: start;
+  min-height: 0 !important;
+  height: auto !important;
+  padding: clamp(22px, 3vw, 44px);
+}
+
+.selected-work .project-shot,
+.selected-work .profit-card-shot .project-shot {
+  width: 100%;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+}
+
+/* Keep flagship titles editorial, but stop them overpowering the card. */
+.selected-work .project-feature-copy h3 {
+  font-size: clamp(3.25rem, 5.6vw, 6rem);
+  line-height: .92;
+  letter-spacing: -0.055em;
+  max-width: 8ch;
+}
+
+/* Give the copy deliberate breathing room without relying on a giant card height. */
+.selected-work .project-feature-copy {
+  padding-top: clamp(38px, 5vw, 72px);
+  padding-bottom: clamp(38px, 5vw, 72px);
+}
+
+@media (max-width: 980px) {
+  .selected-work .project-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .selected-work .project-feature-copy h3 {
+    max-width: none;
+  }
+
+  .selected-work .project-shot-wrap,
+  .selected-work .project-feature-secondary .project-shot-wrap {
+    width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  .selected-work .project-feature-copy h3 {
+    font-size: clamp(2.8rem, 15vw, 4.5rem);
+  }
+
+  .selected-work .project-shot-wrap,
+  .selected-work .project-feature-secondary .project-shot-wrap {
+    padding: 14px;
+  }
+}

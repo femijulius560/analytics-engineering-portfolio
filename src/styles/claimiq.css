@@ -1,0 +1,56 @@
+.claimiq-case {
+  --claim-ink: #202b43;
+  --claim-soft: #f0f3f7;
+}
+.claimiq-hero .eyebrow { color: #58657d; }
+.claimiq-lead {
+  padding: clamp(34px, 5vw, 72px) 0;
+  background: var(--claim-soft);
+  border-bottom: 1px solid var(--line);
+}
+.claimiq-wide,
+.claimiq-stack { margin-top: 72px; }
+.claimiq-stack {
+  display: grid;
+  gap: 28px;
+}
+.claimiq-dark {
+  background: var(--claim-ink);
+  color: #f8f7f2;
+}
+.claimiq-dark .eyebrow,
+.claimiq-dark .case-copy > p,
+.claimiq-dark figcaption { color: rgba(248,247,242,.68); }
+.claimiq-dark .case-figure img { border-color: rgba(255,255,255,.18); }
+
+.claimiq-feature { margin-top: 28px; }
+.claimiq-feature .project-feature-copy {
+  background: #202b43;
+  color: #f8f8f5;
+}
+.claimiq-feature .project-index,
+.claimiq-feature .project-description,
+.claimiq-feature .project-meta-row { color: rgba(248,248,245,.7); }
+.claimiq-feature .project-meta-row span { border-color: rgba(248,248,245,.24); }
+.claimiq-feature .project-link { color: #f8f8f5; }
+.claimiq-card-shot { background: #eef1f5; }
+
+/* Same evidence-first image treatment as the other homepage projects. */
+.claimiq-feature .project-shot-wrap {
+  min-height: 0 !important;
+  height: auto !important;
+  padding: clamp(22px, 3vw, 44px);
+}
+.claimiq-feature .project-shot {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center !important;
+}
+
+@media (max-width: 800px) {
+  .claimiq-wide,
+  .claimiq-stack { margin-top: 48px; }
+}
