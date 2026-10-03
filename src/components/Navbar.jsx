@@ -4,8 +4,8 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <div className="container nav">
-        <NavLink className="identity" to="/" aria-label="Femi Julius portfolio home">
-          <span className="identity-name">Femi Julius</span>
+        <NavLink className="identity" to="/" aria-label="Femi Ogunnaya portfolio home">
+          <span className="identity-name">Femi Ogunnaya</span>
           <span className="identity-role">Analytics Engineer</span>
         </NavLink>
         <nav className="nav-links" aria-label="Primary navigation">

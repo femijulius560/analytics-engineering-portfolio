@@ -19,7 +19,7 @@ const principles = [
 export default function About() {
   return (
     <>
-      <PageMeta title="About | Femi Julius" description="About Femi Julius, an Analytics Engineer working across analytics engineering, data science and decision support systems." />
+      <PageMeta title="About | Femi Ogunnaya" description="About Femi Ogunnaya, an Analytics Engineer working across analytics engineering, data science and decision support systems." />
       <header className="section about-hero">
         <div className="container">
           <p className="eyebrow">About</p>

@@ -20,7 +20,7 @@ function Figure({src, alt, caption, wide=false}) {
 export default function SpongeMetrics() {
   return (
     <article className="case-study">
-      <PageMeta title="Sponge Metrics | Femi Julius" description="Case study: Sponge Metrics, an environmental and spatial decision support system connecting operational hazard signals, evidence, investigation and intervention." />
+      <PageMeta title="Sponge Metrics | Femi Ogunnaya" description="Case study: Sponge Metrics, an environmental and spatial decision support system connecting operational hazard signals, evidence, investigation and intervention." />
       <header className="section case-hero">
         <div className="container">
           <Link className="back-link" to="/">← Selected work</Link>

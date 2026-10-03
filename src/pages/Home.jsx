@@ -11,7 +11,7 @@ const capabilities = [
 export default function Home() {
   return (
     <>
-      <PageMeta title="Femi Julius | Analytics Engineer" description="Analytics Engineer building decision support systems from complex data across environmental intelligence, business performance and applied machine learning." />
+      <PageMeta title="Femi Ogunnaya | Analytics Engineer" description="Analytics Engineer building decision support systems from complex data across environmental intelligence, business performance and applied machine learning." />
       <section className="hero section">
         <div className="container">
           <div className="hero-kicker"><p className="availability">Data · Systems · Decisions</p></div>

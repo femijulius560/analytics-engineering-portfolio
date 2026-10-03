@@ -13,7 +13,7 @@ function Figure({ src, alt, caption }) {
 export default function ClaimIQ() {
   return (
     <article className="case-study claimiq-case">
-      <PageMeta title="ClaimIQ | Femi Julius" description="Case study: ClaimIQ, an insurance analytics system for claim prediction, SHAP explainability, batch analytics and fraud investigation." />
+      <PageMeta title="ClaimIQ | Femi Ogunnaya" description="Case study: ClaimIQ, an insurance analytics system for claim prediction, SHAP explainability, batch analytics and fraud investigation." />
       <header className="section case-hero claimiq-hero">
         <div className="container">
           <Link className="back-link" to="/#selected-work">← Selected work</Link>

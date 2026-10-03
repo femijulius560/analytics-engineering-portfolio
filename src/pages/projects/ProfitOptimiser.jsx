@@ -22,7 +22,7 @@ function Figure({src, alt, caption}) {
 export default function ProfitOptimiser() {
   return (
     <article className="case-study profit-case">
-      <PageMeta title="Profit Optimiser | Femi Julius" description="Case study: Profit Optimiser, a hospitality decision support system that turns weekly business data into clear findings and practical actions." />
+      <PageMeta title="Profit Optimiser | Femi Ogunnaya" description="Case study: Profit Optimiser, a hospitality decision support system that turns weekly business data into clear findings and practical actions." />
       <header className="section case-hero profit-hero">
         <div className="container">
           <Link className="back-link" to="/#selected-work">← Selected work</Link>
