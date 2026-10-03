@@ -19,7 +19,7 @@ export default function ContactSection() {
           <p>I’m interested in Analytics Engineering and data product opportunities where analytical work needs to become something people can actually use.</p>
           <nav className="contact-links" aria-label="Professional links">
             <a href="mailto:femijulius560@gmail.com"><span className="contact-icon"><MailIcon /></span><span>Email</span><span aria-hidden="true">↗</span></a>
-            <a href="www.linkedin.com/in/femi-ogunnaya-79ba48242/" target="_blank" rel="noreferrer"><span className="contact-icon"><LinkedInIcon /></span><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/in/femi-ogunnaya-79ba48242/" target="_blank" rel="noreferrer"><span className="contact-icon"><LinkedInIcon /></span><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
             <a href="https://github.com/femijulius560" target="_blank" rel="noreferrer"><span className="contact-icon"><GitHubIcon /></span><span>GitHub</span><span aria-hidden="true">↗</span></a>
           </nav>
         </div>
